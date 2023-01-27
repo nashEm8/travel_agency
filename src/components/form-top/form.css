@@ -1,0 +1,12 @@
+.form-top{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #ffff00;
+}
