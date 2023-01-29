@@ -1,0 +1,50 @@
+@font-face {
+    font-family: azoBlack;
+    src: url('../../fonts/AzoSans-Black.otf');
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p{
+    color: #17d6ba;
+}
+
+.text h2{
+    color: #fff;
+    font-family: azoBlack;
+}
+
+.options{
+    display: flex;
+    width: 200px;
+    background-color: #1E1C1E;
+    border-radius: 15px;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+}
+
+.option img{
+    width: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.option p{
+    color: #fff;
+}
+
+.option span{
+    color: #b1b1b1;
+}
+
+.option p, .option span, .option a{
+    text-align: center;
+    padding: 10px;
+}
