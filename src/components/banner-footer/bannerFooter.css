@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: azoRegular;
+}
+
+@font-face {
+    font-family: azoRegular;
+    src: url('../../fonts/AzoSans-Regular.otf');
+}
+
+.banner-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url('../../images/banner-footer/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+}
+
+.text-banner-footer{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-banner-footer p{
+    margin: 0;
+    color: #17d6ba;
+}
+
+.text-banner-footer h2{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.text-banner-footer span{
+    color: #b1b1b1;
+    margin: 10px 0;
+}
+
+.text-banner-footer a{
+    font-family: azoRegular;
+    font-size: 15px;
+    color: #17d6ba;
+    border: 2px solid #17d6ba;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: .3s ease-in;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.text-banner-footer a:hover{
+    background-color: #17d6ba;
+    color: #000;
+}
