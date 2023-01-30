@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: azoBlack;
+    src: url('../../fonts/AzoSans-Black.otf');
+}
+
+.conteudo-galeria{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.text p{
+    text-align: center;
+    color: #17d6ba;
+}
+
+.text h2{
+    color: #fff;
+    font-family: azoBlack;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.galeria div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.galeria span{
+    margin-top: 10px;
+    color: #b1b1b1;
+}
+
+.galeria p{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.galeria img{
+    width: 310px;
+    border-radius: 15px;
+}
