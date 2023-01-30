@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: azoRegular;
+}
+
+@font-face {
+    font-family: azoRegular;
+    src: url('../../fonts/AzoSans-Regular.otf');
+}
+
+@font-face {
+    font-family: azoBlack;
+    src: url('../../fonts/AzoSans-Black.otf');
+}
+
+.section-blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dice-blog{
+    margin-top: 100px;
+}
+
+.text-title-section p{
+    color: #17d6ba;
+    margin: 0;
+}
+
+.text-title-section h2{
+    font-family: azoBlack;
+    color: #fff;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.posts-blog{
+    margin-top: 40px;
+    display: flex;
+    width: 75%;
+}
+
+.text-post{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.text-post p{
+    color: #fff;
+}
+
+.text-post span{
+    font-size: 14px;
+    color: #b1b1b1;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.text-post a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+.infor-send{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor-send a svg{
+    color: #17d6ba;
+}
+
+.dice-post1,
+.dice-post2,
+.dice-post3{
+    width: 320px;
+    border-radius: 10px;
+    background-color: #1D1C1D;
+    margin: 0 10px;
+}
+
+.dice-post1 img{
+    position: relative;
+    background-image: url('../../images/blog/img-blog1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    width: 320px;
+    height: 150px;
+}
+
+.dice-post2 img{
+    position: relative;
+    background-image: url('../../images/blog/img-blog2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    width: 320px;
+    height: 150px;
+}
+
+.dice-post3 img{
+    position: relative;
+    background-image: url('../../images/blog/img-blog3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    width: 320px;
+    height: 150px;
+}
