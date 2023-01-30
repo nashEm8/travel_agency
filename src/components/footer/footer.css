@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.infor-contato{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.infor-contato h4{
+    font-size: 22px;
+}
+
+.infor-empresa img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.infor-empresa span{
+    color: #b1b1b1;
+}
+
+.redes-sociais svg{
+    margin-top: 20px;
+    color: #17d6ba;
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.infor-empresa, .links, .contato, .newsletter{
+    flex: 1;
+}
+
+.links h4, .contato h4, .newsletter h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links, .contato, .newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.links svg, .contato svg{
+    margin-right: 5px;
+    color: #17d6ba;
+}
+
+.links a, .contato a{
+    font-size: 13px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+.newsletter span{
+    color: #b1b1b1;
+}
+
+.newsletter input{
+    width: 280px;
+    margin: 15px 0;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #17d6ba;
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+.newsletter button{
+    width: 150px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #17d6ba;
+    color: #17d6ba;
+    padding: 5px 8px;
+}
+
+.infor-create{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #353535;
+}
+
+.infor-create .create-text{
+    padding: 10px 0;
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.infor-create .create-text span{
+    color: #17d6ba;
+}
