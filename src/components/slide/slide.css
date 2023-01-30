@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: azoBlack;
+    src: url('../../fonts/AzoSans-Black.otf');
+}
+
+.slide-infor{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.left-side{
+    width: 500px;
+    background-color: #ffff00;
+    margin-right: 10px;
+}
+
+.right-side{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.right-side p{
+    color: #17d6ba;
+    text-align: justify-all;
+}
+
+.right-side h2{
+    font-family: azoBlack;
+    color: #fff;
+}
+
+.right-side span{
+    color: #b1b1b1;
+}
