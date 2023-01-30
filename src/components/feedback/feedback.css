@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: azoRegular;
+}
+
+@font-face {
+    font-family: azoRegular;
+    src: url('../../fonts//AzoSans-Regular.otf');
+}
+
+.section-feedback{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.feedback{
+    display: flex;
+    width: 75%;
+}
+
+.text-feedback{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-feedback p{
+    color: #17d6ba;
+    margin: 0;
+}
+
+.text-feedback h2{
+    color: #fff;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.person-coments{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.coments{
+    display: flex;
+}
+
+.coment{
+    background-color: #232123;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px 5px;
+}
+
+.coment p,
+.dice-person span,
+.text-feedback span{
+    color: #b1b1b1;
+    font-size: 14px;
+}
+
+.infor-person-coment{
+    display: flex;
+    align-items: center;
+}
+
+.infor-person-coment img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dice-person{
+    margin-left: 10px;
+}
+
+.dice-person p{
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
