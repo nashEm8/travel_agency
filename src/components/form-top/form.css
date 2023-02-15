@@ -1,12 +1,65 @@
+@font-face {
+    font-family: azoRegular;
+    src: url('../../fonts/AzoSans-Regular.otf');
+}
+
+*{
+    font-family: azoRegular;
+}
+
 .form-top{
     display: flex;
     justify-content: center;
+    margin-top: -50px;
 }
 
 form{
     display: flex;
     justify-content: space-evenly;
+    padding: 20px 10px;
+    width: 80%;
+    background-color: #353535;
+}
+
+form label{
+    margin: 5px 0;
+    color: #b1b1b1;
+}
+
+form input{
+    width: 220px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 2px solid #17d6ba;
+    background-color: transparent;
+}
+
+form input::placeholder, form .custom-input{
+    color: #b1b1b1;
+}
+
+form div{
+    display: flex;
     flex-direction: column;
-    width: 1000px;
-    background-color: #ffff00;
+}
+
+.form-button label{
+    color: transparent;
+}
+
+form button{
+    width: 235px;
+    background-color: transparent;
+    border: 2px solid #17d6ba;
+    font-weight: bold;
+    cursor: pointer;
+    color: #17d6ba;
+    padding: 8px 10px;
+    border-radius: 20px;
+    transition: .3s ease-in;
+}
+
+form button:hover{
+    background-color: #17d6ba;
+    color: #353535;
 }

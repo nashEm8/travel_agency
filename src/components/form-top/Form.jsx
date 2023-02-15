@@ -1,4 +1,5 @@
 import '../form-top/form.css';
+import '../form-top/formTop-queries.css';
 
 const Form = () => {
     return(
@@ -11,10 +12,16 @@ const Form = () => {
                     </div>         
                     <div>
                         <label>Quando?</label>
-                        <input type="date"/>
-                    </div>     
-                    <input type="number" placeholder="Quantas pessoas?"/>
-                    <button>Encontrar agora</button>
+                        <input type="date" class="custom-input"/>
+                    </div>    
+                    <div>
+                        <label>Quantas pessoas?</label>
+                        <input type="number" placeholder="Quantas pessoas?"/>
+                    </div> 
+                    <div className='form-button'>
+                        <label>1</label>
+                        <button>Encontrar agora</button>
+                    </div>
                 </form>
             </div>
         </>

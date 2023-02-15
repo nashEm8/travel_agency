@@ -1,24 +1,18 @@
-@media (max-width: 1260px){
-    form input{
-        width: 200px;
-    }
-
-    form button{
-        width: 200px;
-        color: #ff0000;
-    }
-
-    .feedback{
-        align-items: center;
+@media (max-width: 1180px){
+    form{
         flex-direction: column;
     }
 
-    .feedback .text-feedback{
-        width: 75%;
+    form label{
+        width: 30%;
     }
 
-    .feedback .person-coments{
-        width: 75%;
-        margin-top: 20px;
+    form div{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    form input{
+        width: 70%;
     }
 }
