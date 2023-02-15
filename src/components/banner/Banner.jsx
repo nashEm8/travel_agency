@@ -1,4 +1,5 @@
 import '../banner/banner.css';
+import '../banner/banner-queries.css';
 
 const Banner = () => {
     return(
