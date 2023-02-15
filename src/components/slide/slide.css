@@ -9,7 +9,7 @@
 }
 
 .slide-infor{
-    width: 1100px;
+    width: 80%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -18,7 +18,6 @@
 
 .left-side{
     width: 500px;
-    background-color: #ffff00;
     margin-right: 10px;
 }
 
@@ -32,10 +31,10 @@
 
 .right-side p{
     color: #17d6ba;
-    text-align: justify-all;
 }
 
 .right-side h2{
+    font-size: 28px;
     font-family: azoBlack;
     color: #fff;
 }

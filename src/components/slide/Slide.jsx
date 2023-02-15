@@ -1,7 +1,8 @@
 import React from 'react';
+import '../slide/slide.css';
+import '../slide/slide-queries.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import '../slide/slide.css'
 import slide1 from '../../images/slides/slide1.jpg';
 import slide2 from '../../images/slides/slide2.jpg';
 import slide3 from '../../images/slides/slide3.jpg';
