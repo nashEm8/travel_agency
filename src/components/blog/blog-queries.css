@@ -1,0 +1,20 @@
+@media (max-width: 1180px){
+    .posts-blog{
+        flex-direction: column;
+    }
+
+    .dice-post1, .dice-post2, .dice-post3{
+        display: flex;
+        margin: 10px 0;
+    }
+
+    .text-post{
+        width: 100%;
+    }
+
+    .dice-post1 img, .dice-post2 img, .dice-post3 img{
+        width: 280px;
+        height: 140px;
+        border-radius: 0;
+    }
+}

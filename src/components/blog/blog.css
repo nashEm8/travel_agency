@@ -15,22 +15,22 @@
 }
 
 .section-blog{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
-.dice-blog{
-    margin-top: 100px;
-}
-
 .text-title-section p{
+    text-align: center;
     color: #17d6ba;
     margin: 0;
 }
 
 .text-title-section h2{
+    text-align: center;
     font-family: azoBlack;
     color: #fff;
     margin: 5px 0;
@@ -38,9 +38,8 @@
 }
 
 .posts-blog{
-    margin-top: 40px;
     display: flex;
-    width: 75%;
+    margin-top: 40px;
 }
 
 .text-post{
@@ -76,13 +75,15 @@
     color: #17d6ba;
 }
 
-.dice-post1,
-.dice-post2,
-.dice-post3{
-    width: 320px;
+.dice-post1, .dice-post3{
     border-radius: 10px;
     background-color: #1D1C1D;
-    margin: 0 10px;
+}
+
+.dice-post2{
+    border-radius: 10px;
+    background-color: #1D1C1D;
+    margin: 0 20px;
 }
 
 .dice-post1 img{
@@ -92,7 +93,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;
-    width: 320px;
+    width: 315px;
     height: 150px;
 }
 
@@ -103,7 +104,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;
-    width: 320px;
+    width: 315px;
     height: 150px;
 }
 
@@ -114,6 +115,6 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;
-    width: 320px;
+    width: 315px;
     height: 150px;
 }
