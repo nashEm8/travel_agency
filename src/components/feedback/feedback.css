@@ -13,11 +13,12 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .feedback{
     display: flex;
-    width: 75%;
+    width: 80%;
 }
 
 .text-feedback{
@@ -43,22 +44,33 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .coments{
     display: flex;
 }
 
-.coment{
+.coments .coment:nth-child(1),
+.coments .coment:nth-child(2),
+.coments .coment:nth-child(3){
+    width: 100%;
     background-color: #232123;
     border-radius: 8px;
     padding: 10px 15px;
     margin: 10px 5px;
 }
 
-.coment p,
-.dice-person span,
-.text-feedback span{
+.person-coments > .coment:nth-child(2){
+    width: 99%;
+    background-color: #232123;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.coment p, .dice-person span, .text-feedback span{
     color: #b1b1b1;
     font-size: 14px;
 }
