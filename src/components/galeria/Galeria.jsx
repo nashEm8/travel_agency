@@ -50,18 +50,20 @@ const Galeria = () => {
                 <div>
                     <img src={galeria7}/>  
                     <span>Sua marca</span>
-                    <p>Japão</p>
-                </div>
-                <div>
-                    <img src={galeria8}/>  
-                    <span>Sua marca</span>
                     <p>China</p>
                 </div>
-                <div>
+
+                <div>    
+                    <img src={galeria8}/>  
+                    <span>Sua marca</span>
+                    <p>Japão</p>
+                </div>
+
+                <div>    
                     <img src={galeria9}/>  
                     <span>Sua marca</span>
-                    <p>Espanha</p>
-                </div>  
+                    <p>Japão</p>
+                </div>
             </div>
         </div>
         </>
