@@ -1,16 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: azoBlack;
     src: url('../../fonts/AzoSans-Black.otf');
 }
 
-.text{
+.conteudo-destino{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .text p{
+    text-align: center;
     color: #17d6ba;
 }
 
@@ -20,31 +25,50 @@
 }
 
 .options{
+    width: 80%;
     display: flex;
-    width: 200px;
-    background-color: #1E1C1E;
-    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .option{
-    display: flex;
-    flex-direction: column;
+    width: 220px;
+    border-radius: 15px;
+    background-color: #1D1C1D;
 }
 
 .option img{
-    width: 200px;
+    width: 220px;
+    height: 140px;
     border-radius: 15px 15px 0 0;
 }
 
-.option p{
+.option a svg{
+    color: #17d6ba;
+    width: 15px;
+    height: 15px;
+}
+
+.text-destino{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.text-destino p{
     color: #fff;
 }
 
-.option span{
+.text-destino span{
     color: #b1b1b1;
+    margin: 15px 0;
 }
 
-.option p, .option span, .option a{
-    text-align: center;
-    padding: 10px;
+.text-destino a{
+    color: #17d6ba;
+    text-decoration: none;
 }
